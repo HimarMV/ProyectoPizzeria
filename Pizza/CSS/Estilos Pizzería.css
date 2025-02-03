@@ -1,1 +1,70 @@
-.body {background-image: url();}
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    
+}
+
+span{
+    padding-bottom: 2%;
+    padding-left: 5%;
+    border-image-width: 20%;
+}
+
+h2{
+    color:aliceblue ;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.gallery-pizza{
+    width: 10%;
+    flex-direction: column;
+    position: fixed;
+}
+
+.container-pizza{
+    width: 10%;
+    flex-direction: column;
+    position: fixed;
+}
+.container-ensaldas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-ensaldas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-bebidas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-bebidas{
+    width: 10%;
+    flex-direction: column;
+    position: fixed;
+}
+
+#footer{
+    width: 100%;
+    background-color: #e27979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
