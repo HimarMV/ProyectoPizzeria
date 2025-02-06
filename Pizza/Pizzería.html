@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzería</title>
+    <link rel="stylesheet" href="../Pizza/CSS/Estilos Pizzería.css" />
 </head>
+
 <body>
-    <header href="#header">
+    <header id="header">
         <span>Inicio</span>
         <span>Ofertas</span>
         <span>Pizzas</span>
@@ -13,48 +16,48 @@
         <span>Bebidas</span>
     </header>
 
-    <div href="#container">
-        <ul>
-            <li>Inicio</li>
-            <li>Ofertas</li>
-            <li>Pizzas</li>
-            <li>Ensalada</li>
-            <li>Bebidas</li>
-            <li>Más información</li>
-        </ul>
-    </div>
-
-    <div>
-        <div href="#header-image">
-            <img src="Imagenes/" alt="titular">
+    <main>
+        <div id="header-image">
+            <img src="Imagenes/titular.jpg" alt="Pizzería" />
         </div>
 
-        <div href="#Ofertas">
+        <section id="Ofertas" class="pizzas_ofertas">
             <h2>Ofertas</h2>
-            <span><img src="Imagenes/pizza-barbacoa-familiar.jpg" alt="barbacoa"></span>
-            <span><img src="Imagenes/pizza-margarita-1.jpeg" alt="margarita"></span>
-            <span><img src="Imagenes/pizza-jamon-y-queso.jpg" alt="jamonqueso"></span>
-        </div>
+            <div class="container-pizza">
+                <img src="Imagenes/pizza-barbacoa-familiar.jpg" alt="Barbacoa" />
+                <p>Pizza Barbacoa Familiar</p>
+            </div>
+            <div class="container-pizza">
+                <img src="Imagenes/pizza-margarita-1.jpeg" alt="Margarita" />
+                <p>Pizza Margarita</p>
+            </div>
+            <div class="container-pizza">
+                <img src="Imagenes/pizza-jamon-y-queso.jpg" alt="Jamonqueso" />
+                <p>Pizza Jamón y Queso</p>
+            </div>
+        </section>
 
-        <div href="#pizzas">
+        <section id="pizzas">
             <h2>Pizzas</h2>
+            
+        </section>
 
-        </div>
-
-        <div href="#ensaladas">
+        <section id="ensaladas">
             <h2>Ensaladas</h2>
-        </div>
+            
+        </section>
 
-        <div href="#bebidas">
+        <section id="bebidas">
             <h2>Bebidas</h2>
-        </div>
+            
+        </section>
+    </main>
 
-        <footer href="#footer">
-            <span>+34 111111111</span>
-            <span>Sobre nosotros</span>
-            <span>Calle Inventada 18</span>
-            <span>Contacto</span>
-        </footer>
-    </div>
+    <footer id="footer">
+        <span>+34 111111111</span>
+        <span>Sobre nosotros</span>
+        <span>Calle Inventada 18</span>
+        <span>Contacto</span>
+    </footer>
 </body>
 </html>
