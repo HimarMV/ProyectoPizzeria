@@ -124,3 +124,9 @@ main {
     margin-left: 220px; 
     padding: 20px;
 }
+
+.rss {
+    display: block;
+    position: relative;
+    margin: auto;
+}
